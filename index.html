@@ -1,0 +1,227 @@
+<!DOCTYPE html><html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Nama Kamu</title><link rel="stylesheet" href="style.css">
+
+<!-- Google Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head><body><!-- Navbar -->
+<header>
+    <nav class="navbar">
+        <a href="#" class="logo">My<span>Porto</span></a>
+
+        <ul class="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button class="menu-btn" id="menuBtn">☰</button>
+    </nav>
+</header>
+
+<!-- Home -->
+<section id="home" class="hero">
+    <div class="hero-text">
+        <p class="hello">HELLO, I'M</p>
+        <h1>Nama <span>Kamu</span></h1>
+        <h2>Web Developer & UI Designer</h2>
+
+        <p class="description">
+            Saya seorang pelajar yang tertarik dengan dunia teknologi,
+            desain website, dan pemrograman.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#project" class="btn">Lihat Project</a>
+            <a href="#contact" class="btn-outline">Hubungi Saya</a>
+        </div>
+    </div>
+
+    <div class="hero-card">
+        <div class="profile-circle">
+            <span>👨‍💻</span>
+        </div>
+    </div>
+</section>
+
+<!-- About -->
+<section id="about" class="section">
+    <div class="section-title">
+        <p>ABOUT ME</p>
+        <h2>Tentang Saya</h2>
+    </div>
+
+    <div class="about-content">
+        <div class="about-box">
+            <h3>Siapa Saya?</h3>
+            <p>
+                Saya adalah seseorang yang memiliki minat dalam bidang
+                teknologi informasi, khususnya pengembangan website
+                dan desain antarmuka.
+            </p>
+            <p>
+                Saya senang mempelajari hal baru dan membuat berbagai
+                project untuk meningkatkan kemampuan saya.
+            </p>
+        </div>
+
+        <div class="info-box">
+            <div>
+                <strong>Nama</strong>
+                <span>Nama Kamu</span>
+            </div>
+            <div>
+                <strong>Status</strong>
+                <span>Pelajar</span>
+            </div>
+            <div>
+                <strong>Keahlian</strong>
+                <span>Web Development</span>
+            </div>
+            <div>
+                <strong>Email</strong>
+                <span>emailkamu@gmail.com</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Skills -->
+<section id="skills" class="section skills-section">
+    <div class="section-title">
+        <p>MY ABILITIES</p>
+        <h2>Skills</h2>
+    </div>
+
+    <div class="skills-container">
+        <div class="skill">
+            <div class="skill-name">
+                <span>HTML</span>
+                <span>90%</span>
+            </div>
+            <div class="progress">
+                <div class="progress-bar" style="width:90%"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-name">
+                <span>CSS</span>
+                <span>85%</span>
+            </div>
+            <div class="progress">
+                <div class="progress-bar" style="width:85%"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-name">
+                <span>JavaScript</span>
+                <span>75%</span>
+            </div>
+            <div class="progress">
+                <div class="progress-bar" style="width:75%"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-name">
+                <span>UI/UX Design</span>
+                <span>80%</span>
+            </div>
+            <div class="progress">
+                <div class="progress-bar" style="width:80%"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Project -->
+<section id="project" class="section">
+    <div class="section-title">
+        <p>MY WORK</p>
+        <h2>Project Saya</h2>
+    </div>
+
+    <div class="project-container">
+
+        <div class="project-card">
+            <div class="project-icon">🌐</div>
+            <h3>Website Portfolio</h3>
+            <p>
+                Website portfolio personal menggunakan HTML, CSS,
+                dan JavaScript.
+            </p>
+            <div class="tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JS</span>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-icon">📚</div>
+            <h3>Sistem Perpustakaan</h3>
+            <p>
+                Website sederhana untuk mengelola data buku,
+                anggota, dan peminjaman.
+            </p>
+            <div class="tags">
+                <span>PHP</span>
+                <span>MySQL</span>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-icon">🎨</div>
+            <h3>UI Design</h3>
+            <p>
+                Perancangan tampilan website modern dan responsif
+                untuk berbagai kebutuhan.
+            </p>
+            <div class="tags">
+                <span>UI/UX</span>
+                <span>Figma</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="section contact-section">
+    <div class="section-title">
+        <p>GET IN TOUCH</p>
+        <h2>Hubungi Saya</h2>
+    </div>
+
+    <form id="contactForm" class="contact-form">
+
+        <input type="text" id="name" placeholder="Nama Kamu" required>
+
+        <input type="email" id="email" placeholder="Email Kamu" required>
+
+        <textarea id="message" rows="5"
+            placeholder="Tulis pesan..." required></textarea>
+
+        <button type="submit" class="btn">Kirim Pesan</button>
+
+    </form>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>© 2026 Nama Kamu. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
